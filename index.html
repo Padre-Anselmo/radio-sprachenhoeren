@@ -68,6 +68,7 @@
     ```
     .language-group {
         margin-bottom: 22px;
+        clear: both;
     }
 
     .group-title {
@@ -367,11 +368,36 @@
                     }
                 ]
             },
+
             {
                 name: "✈️ Flugfunk",
                 countries: [
-                    { code: "pl-epwa", flag: "✈️", name: "Poznań–Ławica", stations: [{ name: "Poznań–Ławica" }] },
-                    { code: "pl-epwa2", flag: "✈️", name: "Warszawa", stations: [{ name: "Warszawa" }] }
+                    {
+                        code: "pl",
+                        flag: "✈️",
+                        name: "Poznań–Ławica",
+                        stations: [
+                            {
+                                name: "EPPO Tower",
+                                url: "http://d.liveatc.net/eppo2.mp3"
+                            }
+                        ]
+                    },
+                    {
+                        code: "pl-wro",
+                        flag: "✈️",
+                        name: "Wrocław",
+                        stations: [
+                            {
+                                name: "EPWR FIS (South)",
+                                url: "http://d.liveatc.net/epwr4_fis_s.mp3"
+                            },
+                            {
+                                name: "EPWR Tower",
+                                url: "http://d.liveatc.net/epwr4_twr.mp3"
+                            }
+                        ]
+                    }
                 ]
             }
         ];
