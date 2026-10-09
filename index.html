@@ -43,9 +43,7 @@
         border: 1px solid var(--border);
         border-radius: 8px;
         padding: 12px;
-        display: flex;
-        flex-wrap: wrap;
-        gap: 7px;
+        display: block;
         margin-bottom: 18px;
     }
 
@@ -63,12 +61,13 @@
         flex-wrap: wrap;
         gap: 8px;
         margin-top: 8px;
+        margin-bottom: 18px;
     }
 
     ```
     .language-group {
         margin-bottom: 22px;
-        clear: both;
+        flex: 0 0 100%;
     }
 
     .group-title {
